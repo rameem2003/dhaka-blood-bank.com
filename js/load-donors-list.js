@@ -3,14 +3,16 @@ const donors = [
         name : "jhon",
         blood : "A+",
         address : "weqfhweufhwe",
-        lastDonate : "12/12/2022"
+        lastDonate : "12/12/2022",
+        email : "xyz@gmail.com"
     },
 
     {
         name : "jhon",
         blood : "A+",
         address : "weqfhweufhwe",
-        lastDonate : "12/12/2022"
+        lastDonate : "12/12/2022",
+        email : "xyz@gmail.com"
     },
 
 
@@ -18,14 +20,16 @@ const donors = [
         name : "jhon",
         blood : "A+",
         address : "weqfhweufhwe",
-        lastDonate : "12/12/2022"
+        lastDonate : "12/12/2022",
+        email : "xyz@gmail.com"
     },
 
     {
         name : "jhon",
         blood : "A+",
         address : "weqfhweufhwe",
-        lastDonate : "12/12/2022"
+        lastDonate : "12/12/2022",
+        email : "xyz@gmail.com"
     }
 ]
 
@@ -53,6 +57,7 @@ const load = () => {
                         <p class="text-center text-white blood">Blood group: ${card.blood}</p>
                         <p class="text-center text-white blood">Last Donate: ${card.lastDonate}</p>
                         <p class="text-center text-white">Address: ${card.address}</p>
+                        <p class="text-center text-white">Email: ${card.email}</p>
                         <a class="btn btn-success text-center d-block coustom_btn ml-auto" href=""><i class="fa-solid fa-phone"></i> Call</a>
                     </div>
                 </div>
