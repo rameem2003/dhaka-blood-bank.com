@@ -38,6 +38,16 @@ const donors = [
         lastDonate : "28 April 2022",
         email : "nazmulislam101112@gmail.com",
         phone : "01959061063"
+    },
+
+    {
+        id : "BarfiHridoy",
+        name : "Mohammad Hridoy Khandaker ",
+        blood : "O+",
+        location : "Faridpur, Dhaka",
+        lastDonate : "06 April 2022",
+        email : "fzhridoykhondokerraj@gmail.com",
+        phone : "01841036108"
     }
 ]
 
