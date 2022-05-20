@@ -70,10 +70,19 @@ header li a{
 
 
 /* about */
-#about, #members{
+#about, #members, #president{
     min-height: 80vh;
 }
 /* about end */
+
+
+
+/* president */
+#president img{
+    width: 60%;
+}
+/* president end */
+
 
 
 /* members */
@@ -82,11 +91,15 @@ header li a{
 }
 #members .profile .pro-des .name{
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
 }
 #members .profile .pro-des .blood{
     font-weight: bolder;
     font-size: 20px;
+}
+
+#members .profile .pro-des .card-info{
+    font-weight: bolder;
 }
 #members .pro-img{
     text-align: center;

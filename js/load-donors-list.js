@@ -1,35 +1,43 @@
 const donors = [
     {
-        name : "jhon",
+        id : "olid2019",
+        name : "Sarfaraz Ahmed Olid",
         blood : "A+",
-        address : "weqfhweufhwe",
-        lastDonate : "12/12/2022",
-        email : "xyz@gmail.com"
+        location : "Mirpur, Dhaka",
+        lastDonate : "08 May 2022",
+        email : "olid1936@gmail.com",
+        phone : "01779121156",
     },
 
     {
-        name : "jhon",
-        blood : "A+",
-        address : "weqfhweufhwe",
-        lastDonate : "12/12/2022",
-        email : "xyz@gmail.com"
+        id : "rabbi01",
+        name : "Mohammad Rabbi",
+        blood : "O-",
+        location : "Badda, Dhaka",
+        lastDonate : "15 April 2022",
+        email : "bipulhasanrabbi@gmail.com",
+        phone : "01837234904",
     },
 
 
     {
-        name : "jhon",
-        blood : "A+",
-        address : "weqfhweufhwe",
-        lastDonate : "12/12/2022",
-        email : "xyz@gmail.com"
+        id : "december2001",
+        name : "Mohammad Sumon",
+        blood : "O+",
+        location : "Uttara, Dhaka",
+        lastDonate : "12 July 2021",
+        email : "ahamedsumon406@gmail.com",
+        phone : "01635344750"
     },
 
     {
-        name : "jhon",
+        id : "nazmulislam101112",
+        name : "Nazmul Islam",
         blood : "A+",
-        address : "weqfhweufhwe",
-        lastDonate : "12/12/2022",
-        email : "xyz@gmail.com"
+        location : "Mirpur, Dhaka",
+        lastDonate : "28 April 2022",
+        email : "nazmulislam101112@gmail.com",
+        phone : "01959061063"
     }
 ]
 
@@ -55,10 +63,10 @@ const load = () => {
                     <div class="pro-des">
                         <h2 class="text-center text-white name">${card.name}</h2>
                         <p class="text-center text-white blood">Blood group: ${card.blood}</p>
-                        <p class="text-center text-white blood">Last Donate: ${card.lastDonate}</p>
-                        <p class="text-center text-white">Address: ${card.address}</p>
-                        <p class="text-center text-white">Email: ${card.email}</p>
-                        <a class="btn btn-success text-center d-block coustom_btn ml-auto" href=""><i class="fa-solid fa-phone"></i> Call</a>
+                        <p class="text-center text-white card-info">Last Donate: ${card.lastDonate}</p>
+                        <p class="text-center text-white card-info">Location: ${card.location}</p>
+                        <p class="text-center text-white card-info">Email: ${card.email}</p>
+                        <a class="btn btn-success text-center d-block coustom_btn ml-auto" href="tel:+88${card.phone}"><i class="fa-solid fa-phone"></i> Call</a>
                     </div>
                 </div>
         `;
