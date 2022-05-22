@@ -48,6 +48,16 @@ const donors = [
         lastDonate : "06 April 2022",
         email : "fzhridoykhondokerraj@gmail.com",
         phone : "01841036108"
+    },
+
+    {
+        id : "kamrul44",
+        name : "Kamrul Islam",
+        blood : "O+",
+        location : "Mohammadpur, Dhaka",
+        lastDonate : "01 May 2022",
+        email : "Kamrulislamki100@gmail.com",
+        phone : "01626724215"
     }
 ]
 
